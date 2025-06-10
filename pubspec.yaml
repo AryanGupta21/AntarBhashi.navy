@@ -1,0 +1,28 @@
+name: speech_translator
+description: Speech to Speech Translation App
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  permission_handler: ^11.0.2
+  record: ^5.0.4
+  just_audio: ^0.9.36
+  flutter_sound: ^9.2.13
+  dio: ^5.3.2
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
